@@ -1,0 +1,21 @@
+.hidden2{
+	opacity: 0;
+}
+
+.visible2{
+	opacity: 1;
+}
+
+.grayscale{ 
+  border: 1px solid black;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);  /* For Webkit browsers */
+    filter: gray;  /* For IE 6 - 9 */
+    -webkit-transition: all .6s ease;  /* Transition for Webkit browsers */
+}
+
+.grayscale:hover { 
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    filter: none;
+}
